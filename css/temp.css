@@ -1,0 +1,153 @@
+/* background-colors */
+
+/*
+body {background-color: gray} 
+
+#mycontainer {background-color: blue}
+
+#myheader {background-color: lime;}
+
+#mynavbar {background-color: fuchsia}
+
+#mymaincontent {background-color: lime}
+
+#mynestedcontent1 {background-color: white;}
+
+#mynestedcontent2 {background-color: white;}
+
+ul, h1 {background-color: white;}
+*/
+
+
+/* margins override */
+#myheader, #mycontainer, fieldset {margin-bottom: 0; margin-top: 0;}
+
+/* fieldset design */
+fieldset{
+	border-top-width: 1px;
+	border-bottom: 0;
+	border-left: 0;
+	border-right: 0; 
+	padding-top: 25px;
+	padding-bottom: 60px;
+}
+
+fieldset legend {
+	font-weight: bold;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+/* table design */
+table {
+	width:100%;
+/* 	border: 1px solid #000; */
+	text-align: left;
+}
+
+table td {
+/* 	border: 1px solid #000; */
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+
+/* CV-list design */
+.cv li{
+	margin: 0;
+	display: inline;
+}
+
+/* code design */
+code {
+	font-family: consolas, monaco, courier, monospace;
+	font-size: 13px;
+
+}
+
+p code {  
+    font-family: consolas, monaco, courier, monospace;
+    background-color: #F9F9F8;
+    border: 3px solid #eee;
+    font-size: 13px;
+    padding: 2px 3px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+}
+
+/* navbar design */
+#mynavbar ul {
+	margin-top: 80px;
+}
+
+#mynavbar ul li {
+	list-style: none;
+	font-size: 25px;
+	line-height: normal;
+	font-weight: 700;
+  font-family: 'Gentium Basic' 'Open Sans';
+/* 	letter-spacing: 1px; */
+/* 	text-align: right; */
+}
+
+#mynavbar ul li a {
+  border-bottom: none;
+  color: silver;
+}
+
+#mynavbar ul li a:hover {	
+	color: blue;	
+}
+
+.noborderundera a {
+  border-bottom: none;
+}
+
+/* div margins override */
+.nomar{
+	margin-top: 0;
+}
+
+/* first item margin*/
+.firstitem{
+	margin-top: 25px;
+}
+
+/* background color 
+body{
+  background-color: #EEE  
+} */
+
+table {
+  background-color: #EEE;
+  border-collapse: collapse;
+  margin-bottom: 10px;
+  text-align: left;
+  width: 550px;  
+}              
+         
+.left {
+    padding: 3px 5px 1px;
+    background-color: #AAA;
+    font-size: 10px;
+    text-align: center;
+    vertical-align: middle;
+    width: 25px;
+}
+
+.left a{
+  border-bottom: none;
+}
+
+.title{
+  font-weight: bold;  
+} 
+
+.title-content{
+  font-size: 11px;  
+}
+
+.timeline{
+  font-size: 12px;  
+}

@@ -1,0 +1,95 @@
+/* Changed Font Size from 13px to 12px on 3 Aug, 2010 */
+body {
+font:14px 'Gentium Basic', 'Open Sans', 'Helvetica Neue', Tahoma, Georgia, Verdana, 'Liberation Sans', FreeSans;
+height: 40px;
+line-height: 20px;
+color:#666;
+}
+
+a:focus {
+outline:1px dotted;
+}
+
+/* icon for external links */
+.external{
+	background: url(../images/external.png) center right no-repeat;
+    padding-right: 13px;
+}
+
+hr {
+border:0 #ccc solid;
+border-top-width:1px;
+clear:both;
+height:0;      
+padding-bottom: 40px;
+}
+
+h1 {
+font-family: 'Gentium Basic', 'Yanone Kaffeesatz', serif;
+font-size: 40px;
+font-style: normal;
+font-weight: bold;
+text-shadow: none;
+text-decoration: none;
+text-transform: none;
+line-height: 1.2em;
+letter-spacing: -0.03em;
+word-spacing: 0.111em;
+}
+
+h2 {
+font-size:23px;
+}
+
+h3 {
+font-size:21px;        
+}
+
+h4 {
+font-size:19px;
+}
+
+h5 {
+font-size:17px;
+}
+
+h6 {
+font-size:15px;
+}
+
+ol {
+list-style:decimal;
+}
+
+ul {
+list-style:disc;
+}
+
+li {
+margin-left:30px;
+}
+
+/* Changed Margin-Bottom to Margin, and Changed 20px to 10px, Added Div as well */
+div, p,dl,hr,h1,h2,h3,h4,h5,h6,ol,ul,pre,table,address,fieldset {
+margin:10px;
+}
+
+fieldset legend{
+font-size: 20px;  
+font-weight: 700;
+color: #333;
+font-family: 'Gentium Basic', 'Open Sans';
+/* letter-spacing: 0.1em;  
+color: green;              */
+}
+
+a:link, a:visited {
+  color: #326ea1;
+  text-decoration: none;
+  border-bottom:1px dotted;
+}
+
+a:hover {
+  color: #0D6BE0;
+  border-bottom:1px solid;
+}
