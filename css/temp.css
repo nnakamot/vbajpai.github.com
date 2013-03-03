@@ -1,7 +1,7 @@
 /* background-colors */
 
 /*
-body {background-color: gray} 
+body {background-color: gray}
 
 #mycontainer {background-color: blue}
 
@@ -27,7 +27,7 @@ fieldset{
 	border-top-width: 1px;
 	border-bottom: 0;
 	border-left: 0;
-	border-right: 0; 
+	border-right: 0;
 	padding-top: 25px;
 	padding-bottom: 60px;
 }
@@ -40,7 +40,7 @@ fieldset legend {
 
 /* table design */
 table {
-	width:100%;
+	width:95%;
 /* 	border: 1px solid #000; */
 	text-align: left;
 }
@@ -66,7 +66,7 @@ code {
 
 }
 
-p code {  
+p code {
     font-family: consolas, monaco, courier, monospace;
     background-color: #F9F9F8;
     border: 3px solid #eee;
@@ -96,8 +96,8 @@ p code {
   color: silver;
 }
 
-#mynavbar ul li a:hover {	
-	color: blue;	
+#mynavbar ul li a:hover {
+	color: blue;
 }
 
 .noborderundera a {
@@ -114,9 +114,9 @@ p code {
 	margin-top: 25px;
 }
 
-/* background color 
+/* background color
 body{
-  background-color: #EEE  
+  background-color: #EEE
 } */
 
 table {
@@ -124,9 +124,8 @@ table {
   border-collapse: collapse;
   margin-bottom: 10px;
   text-align: left;
-  width: 550px;  
-}              
-         
+}
+
 .left {
     padding: 3px 5px 1px;
     background-color: #AAA;
@@ -141,13 +140,13 @@ table {
 }
 
 .title{
-  font-weight: bold;  
-} 
+  font-weight: bold;
+}
 
 .title-content{
-  font-size: 11px;  
+  font-size: 11px;
 }
 
 .timeline{
-  font-size: 12px;  
+  font-size: 12px;
 }
