@@ -40,7 +40,7 @@ fieldset legend {
 
 /* table design */
 table {
-	width:95%;
+	width:100%;
 /* 	border: 1px solid #000; */
 	text-align: left;
 }
@@ -61,16 +61,16 @@ table td {
 
 /* code design */
 code {
-	font-family: consolas, monaco, courier, monospace;
-	font-size: 13px;
+	font-family: monaco, courier, monospace;
+	font-size: 12px;
 
 }
 
 p code {
-    font-family: consolas, monaco, courier, monospace;
+    font-family: monaco, courier, monospace;
     background-color: #F9F9F8;
     border: 3px solid #eee;
-    font-size: 13px;
+    font-size: 12px;
     padding: 2px 3px;
     -webkit-border-radius: 4px;
     -moz-border-radius: 4px;
