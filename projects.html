@@ -82,12 +82,55 @@
 			</div>
 			<div id="mymaincontent" class="grid_10">
 				<div id='mynestedcontent1' class="alpha prefix_1">
+
 					<fieldset>
-						<legend>Masters Thesis: F (v2)</legend>
+						<legend>NETCONF clients</legend>
 						<p>
-							<em>A complete system integration of
-								of the network flow query language <br/>
-								under the guidance of
+            <em>under the guidance of
+									<a target="_blank"
+									href="http://cnds.eecs.jacobs-university.de/users/schoenw/">
+									Prof. Dr. Jürgen Schönwälder
+									</a> <br/><br/>
+							</em>
+						</p>
+
+            <p>
+
+              ncclient is a Python library that facilitates client-side
+              scripting and application development around the NETCONF
+              protocol. ncclient was developed by Shikar Bhushan.
+
+            </p>
+
+            <p>
+
+              We have added NETCONF v1.1 support, that allows ncclient to
+              handle chunked frames <a
+              href="http://tools.ietf.org/html/rfc6242 ">[RFC 6242]</a>. The
+            client fallsback to NETCONF v1.0 end of message frames <a
+            href="http://tools.ietf.org/html/rfc4742"> [RFC 4742] </a> for
+          legacy servers that do not advertise NETCONF v1.1 capability.  We
+          have updated the example scripts to accept positional and optional
+          arguments to allow the same script to talk to multiple server
+          implementations.  We tested the implementation at the <a
+            href="http://www.internetsociety.org/articles/successful-netconf-interoperability-testing-announced-ietf-85">
+            NETCONF Interoperability Testing</a> event at IETF 85, Atlanta.
+          ncclient was tested with ConfD, Yuma and libnetconf servers.
+
+            </p>
+
+            <p><a
+              target="_blank" href="http://github.com/vbajpai/ncclient">
+              http://github.com/vbajpai/ncclient → </a><br/><br/> </p>
+
+					</fieldset>
+
+
+
+					<fieldset>
+						<legend>Network Flow Query Language</legend>
+						<p>
+							<em>								under the guidance of
 									<a target="_blank"
 									href="http://cnds.eecs.jacobs-university.de/users/schoenw/">
 									Prof. Dr. Jürgen Schönwälder
