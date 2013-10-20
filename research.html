@@ -84,6 +84,85 @@
 				<div id='mynestedcontent1' class="alpha prefix_1">
 
 					<fieldset>
+
+            <legend>Measuring Connectivity of Dual-Stacked Hosts</legend> <p>
+            <em>under the guidance of <a target="_blank"
+            href="http://cnds.eecs.jacobs-university.de/users/schoenw/"> Prof.
+        Dr. Jürgen Schönwälder </a> <br/><br/> </em> </p>
+
+            <p>
+
+              The IETF has developed protocols that promote a healthy IPv4 and
+              IPv6 co-existence. The happy eyeballs algorithm for instance,
+              provides recommendations to application developers to help
+              prevent bad user experience in situations where IPv6
+              connectivity is broken. In this paper, we compare the IPv4 and
+              IPv6 connectivity of a dual-stacked host using a metric that
+              measures the TCP connection establishment time to a number of
+              popular web services. We witnessed several cases where the
+              connection establishment times and their variations over IPv6
+              are higher.
+
+            </p>
+
+							<table>
+						  <tbody>
+								<tr>
+
+									<td class="left">
+                    <a target="_blank"
+                      href="documents/papers/proceedings/dualstack-tcp-cnsm-2013.pdf">
+									  	<img src="images/pdf.gif"><br>pdf
+										</a>
+									</td>
+
+									<td>
+										<span class="title">
+                      Measuring TCP Connection Establishment Times of
+                      Dual-Stacked Web Services
+                    </span>
+										<span class="title-content">
+                      <br><u>Vaibhav Bajpai</u>, Jürgen Schönwälder
+                      <br>9th International Conference on
+                          Network and Service Management, (CNSM 2013)
+                      <br>Zürich, October 2013 (to appear)
+										</span>
+									</td>
+								</tr>
+						  </tbody>
+					  	</table>
+					</fieldset>
+
+					<fieldset>
+						<legend>NETCONF on SamKnows</legend>
+						<p>
+            <em>under the guidance of
+									<a target="_blank"
+									href="http://cnds.eecs.jacobs-university.de/users/schoenw/">
+									Prof. Dr. Jürgen Schönwälder
+									</a> <br/><br/>
+							</em>
+						</p>
+
+            <p>
+
+              Typical home routers do not support NETCONF today. In order to
+              understand the memory impact of NETCONF servers, we have ported
+              a NETCONF server based on <code>libnetconf</code> on the
+              SamKnows platform running <code>OpenWrt</code>.
+              <code>libnetconf</code> is the NETCONF library in C intended for
+              building NETCONF clients and servers.
+            </p>
+
+            <p><a
+              target="_blank" href="https://code.google.com/p/libnetconf">
+              https://code.google.com/p/libnetconf → </a><br/><br/> </p>
+
+					</fieldset>
+
+
+
+					<fieldset>
 						<legend>NETCONF clients</legend>
 						<p>
             <em>under the guidance of
@@ -96,9 +175,10 @@
 
             <p>
 
-              ncclient is a Python library that facilitates client-side
-              scripting and application development around the NETCONF
-              protocol. ncclient was developed by Shikar Bhushan.
+              <code>ncclient</code> is a Python library that facilitates
+              client-side scripting and application development around the
+              NETCONF protocol. <code>ncclient</code> was developed by Shikar
+              Bhushan.
 
             </p>
 
@@ -115,7 +195,8 @@
           implementations.  We tested the implementation at the <a
             href="http://www.internetsociety.org/articles/successful-netconf-interoperability-testing-announced-ietf-85">
             NETCONF Interoperability Testing</a> event at IETF 85, Atlanta.
-          ncclient was tested with ConfD, Yuma and libnetconf servers.
+          ncclient was tested with <code>ConfD</code>, <code>Yuma</code> and
+          <code>libnetconf</code> servers.
 
             </p>
 
@@ -139,6 +220,7 @@
 						</p>
 
             <p>
+
             Cisco’s NetFlow protocol and IETF’s IPFIX open standard have
             contributed heavily in pushing IP flow export as the de-facto
             technique for collecting aggregate network traffic statistics.
@@ -146,13 +228,15 @@
             provisioning, detecting malicious attacks and network performance
             evaluation. However, understanding certain traffic patterns
             requires sophisticated flow analysis tools that can mine flow
-            records for such a usage. We recently proposed a flow query
-            language that can cap such flow-records. In this work, we
-            introduce NFQL, an efficient implementation of the query language.
-            NFQL can process flow records, aggregate them into groups, apply
-            absolute or relative filters, invoke Allen interval algebra rules,
-            and merge group records. NFQL has been evaluated by a suite of
-            benchmarks against contemporary flow-processing tools.
+            records for such a usage. We recently proposed NFQL, a network
+            flow query language that can cap such flow-records. In this work,
+            we introduce <code>nfql</code>, an implementation of the query
+            language. <code>nfql</code> can process flow records, aggregate
+            them into groups, apply absolute or relative filters, invoke Allen
+            interval algebra rules, and merge group records. <code>nfql</code>
+            has been evaluated by a suite of benchmarks against contemporary
+            flow-processing tools.
+
             </p>
             <p><a
               target="_blank" href="http://nfql.vaibhavbajpai.com">
