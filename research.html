@@ -105,36 +105,73 @@
 
             </p>
 
-							<table>
-						  <tbody>
-								<tr>
+            <table>
+            <tbody>
+              <tr>
 
-									<td class="left">
-                    <a target="_blank"
-                      href="documents/papers/proceedings/dualstack-tcp-cnsm-2013.pdf">
-									  	<img src="images/pdf.gif"><br>pdf
-										</a>
-									</td>
+                <td class="left">
+                  <a target="_blank"
+                    href="documents/papers/proceedings/dualstack-tcp-cnsm-2013.pdf">
+                    <img src="images/pdf.gif"><br>pdf
+                  </a>
+                </td>
 
-									<td>
-										<span class="title">
-                      Measuring TCP Connection Establishment Times of
-                      Dual-Stacked Web Services
-                    </span>
-										<span class="title-content">
-                      <br><u>Vaibhav Bajpai</u>, Jürgen Schönwälder
-                      <br>9th International Conference on
-                          Network and Service Management, (CNSM 2013)
-                      <br>Zürich, October 2013.
-										</span>
-									</td>
-								</tr>
-						  </tbody>
-					  	</table>
+                <td>
+                  <span class="title">
+                    Measuring TCP Connection Establishment Times of
+                    Dual-Stacked Web Services
+                  </span>
+                  <span class="title-content">
+                    <br><u>Vaibhav Bajpai</u>, Jürgen Schönwälder
+                    <br>9th International Conference on
+                        Network and Service Management, (CNSM 2013)
+                    <br>Zürich, October 2013.
+                  </span>
+                </td>
+              </tr>
+            </tbody>
+            </table>
+
 					</fieldset>
 
 					<fieldset>
-						<legend>NETCONF on SamKnows</legend>
+
+            <legend>Google IPv6 Blacklist</legend> <p>
+            <em>under the guidance of <a target="_blank"
+            href="http://cnds.eecs.jacobs-university.de/users/schoenw/"> Prof.
+        Dr. Jürgen Schönwälder </a> <br/><br/> </em> </p>
+
+						<img src="images/research/googlev6blacklist.png"
+								 width="60%"><br/><br/>
+						</img>
+
+            <p>
+
+            Google used to perform IP prefix whitelisting to enable clients to
+            receive IPv6 services. This was an opt-in process, where a
+            dual-stacked user explicitly signed up to receive Google services
+            over IPv6.  This helped ensure users had reliable IPv6
+            connectivity before trying to reach Google services over IPv6 [RFC
+            6589]. Since, the World IPv6 Launch Day, in order to favor the
+            IPv6 upgrade path, Google has changed the policy. The whitelist
+            has now been replaced by a blacklist. This eliminates the opt-in
+            process and increases the chance of a dual-stacked user reaching
+            Google services over IPv6. However, if you're allocated an
+            endpoint from a blacklisted prefix, you'll not receive Google
+            services over IPv6 even though you may be receiving IPv6
+            connectivity from your provider.
+
+            </p>
+
+            <p><a
+              target="_blank"
+              href="http://googleipv6.vaibhavbajpai.com">
+              http://googleipv6.vaibhavbajpai.com → </a><br/><br/> </p>
+
+					</fieldset>
+
+					<fieldset>
+						<legend>Managing SamKnows Probes using NETCONF</legend>
 						<p>
             <em>under the guidance of
 									<a target="_blank"
@@ -153,25 +190,6 @@
               <code>libnetconf</code> is the NETCONF library in C intended for
               building NETCONF clients and servers.
             </p>
-
-            <p><a
-              target="_blank" href="https://code.google.com/p/libnetconf">
-              https://code.google.com/p/libnetconf → </a><br/><br/> </p>
-
-					</fieldset>
-
-
-
-					<fieldset>
-						<legend>NETCONF clients</legend>
-						<p>
-            <em>under the guidance of
-									<a target="_blank"
-									href="http://cnds.eecs.jacobs-university.de/users/schoenw/">
-									Prof. Dr. Jürgen Schönwälder
-									</a> <br/><br/>
-							</em>
-						</p>
 
             <p>
 
@@ -202,10 +220,12 @@
 
             <p><a
               target="_blank" href="http://github.com/vbajpai/ncclient">
-              http://github.com/vbajpai/ncclient → </a><br/><br/> </p>
+              http://github.com/vbajpai/ncclient → </a><br/>
+            <a
+              target="_blank" href="https://code.google.com/p/libnetconf">
+              https://code.google.com/p/libnetconf → </a><br/><br/> </p>
 
-					</fieldset>
-
+          </fieldset>
 
 
 					<fieldset>
